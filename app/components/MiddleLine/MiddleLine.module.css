@@ -1,0 +1,33 @@
+.middle-line-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.line {
+  width: 100%;
+  background-color: #e40046;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.phone-number {
+  background-color: #444444;
+  color: #e40046;
+  font-size: 1.6em;
+}
+
+.line p {
+  font-size: 1.5em;
+}
+
+@media (max-width: 700px) {
+  .middle-line-container {
+    flex-direction: column;
+  }
+
+  .line p {
+    font-size: 1.2em;
+  }
+}

@@ -1,0 +1,75 @@
+.hero-container {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding-top: 10vh;
+  animation: sliderReveal 1s ease forwards;
+  background: url(../../../public/town.svg);
+  background-position: center 22em;
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.hero-text {
+  text-align: center;
+  color: #444444;
+}
+
+.span {
+  font-size: 1.6em;
+  color: #e40046;
+}
+
+.hero-image-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-text h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 420px;
+  height: 80px;
+  margin: 0 auto;
+  border: 1px solid #e40046;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: white;
+}
+
+@keyframes sliderReveal {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1120px) {
+  .hero-text h3 {
+    width: 380px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero-container {
+    padding-top: 14vh;
+  }
+
+  .span {
+    font-size: 1.3em;
+  }
+
+  .hero-text h3 {
+    width: 340px;
+    height: 60px;
+  }
+}
