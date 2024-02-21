@@ -5,8 +5,8 @@
   padding-top: 10vh;
   animation: sliderReveal 1s ease forwards;
   background: url(../../../public/town.svg);
-  background-position: center 22em;
-  background-size: 60%;
+  background-position: center 14em;
+  background-size: 50%;
   background-repeat: no-repeat;
 }
 
