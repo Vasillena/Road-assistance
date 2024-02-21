@@ -49,7 +49,7 @@ export default function Navigation() {
                 className={classes["navbar-link"]}
                 onClick={() => scrollToSection("home")}
               >
-                Home
+                НАЧАЛО
               </button>
             </li>
             <li className={classes["navbar-item"]}>
@@ -57,7 +57,7 @@ export default function Navigation() {
                 className={classes["navbar-link"]}
                 onClick={() => scrollToSection("services")}
               >
-                Services
+                УСЛУГИ
               </button>
             </li>
             <li className={classes["navbar-item"]}>
@@ -65,7 +65,7 @@ export default function Navigation() {
                 className={classes["navbar-link"]}
                 onClick={() => scrollToSection("contact")}
               >
-                Contact
+                КОНТАКТИ
               </button>
             </li>
           </ul>
