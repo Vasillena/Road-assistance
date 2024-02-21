@@ -6,7 +6,7 @@
   animation: sliderReveal 1s ease forwards;
   background: url(../../../public/town.svg);
   background-position: center 22em;
-  background-size: 80%;
+  background-size: 60%;
   background-repeat: no-repeat;
 }
 
