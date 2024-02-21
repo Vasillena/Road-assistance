@@ -31,9 +31,9 @@
   background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
 }
 
-.photos-container:hover .slide {
+/* .photos-container:hover .slide {
   animation-play-state: paused;
-}
+} */
 
 .photo {
   width: 14vw;
@@ -79,5 +79,11 @@
 
   .photos-container::after {
     background: unset;
+  }
+}
+
+@media (hover: hover) {
+  .photos-container:hover .slide {
+    animation-play-state: paused;
   }
 }
