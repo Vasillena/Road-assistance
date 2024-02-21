@@ -5,8 +5,8 @@
   padding-top: 10vh;
   animation: sliderReveal 1s ease forwards;
   background: url(../../../public/town.svg);
-  background-position: center 14em;
-  background-size: 50%;
+  background-position: center 20em;
+  background-size: 100vh;
   background-repeat: no-repeat;
 }
 
@@ -53,6 +53,12 @@
 }
 
 @media (min-width: 701px) and (max-width: 1120px) {
+  .hero-container {
+    padding-top: 14vh;
+    background-position: center 23em;
+    background-size: 60vh;
+  }
+
   .hero-text h3 {
     width: 380px;
     height: 60px;
@@ -62,6 +68,8 @@
 @media (max-width: 700px) {
   .hero-container {
     padding-top: 14vh;
+    background-position: center 23em;
+    background-size: 60vh;
   }
 
   .span {
