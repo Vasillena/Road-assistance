@@ -36,8 +36,6 @@ export default function Services() {
             <p>Доставка на гориво</p>
           </div>
         </div>
-        {/* </div> */}
-        {/* <div className={classes["container"]}> */}
         <div className={classes.service} data-aos="fade-up">
           <div className={classes.icon}>
             <Image src={icon4} width={100} height={100} alt="Icon" />
