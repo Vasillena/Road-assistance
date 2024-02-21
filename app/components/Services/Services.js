@@ -1,11 +1,11 @@
 import classes from "./Services.module.css";
 import Image from "next/image";
-import icon1 from "@/public/icon-1.svg";
-import icon2 from "@/public/icon-2.svg";
-import icon3 from "@/public/icon-3.svg";
-import icon4 from "@/public/icon-4.svg";
-import icon5 from "@/public/icon-5.svg";
-import icon6 from "@/public/icon-6.svg";
+import icon1 from "../../../public/Icon-1.svg";
+import icon2 from "../../../public/Icon-2.svg";
+import icon3 from "../../../public/Icon-3.svg";
+import icon4 from "../../../public/Icon-4.svg";
+import icon5 from "../../../public/Icon-5.svg";
+import icon6 from "../../../public/Icon-6.svg";
 
 export default function Services() {
   return (
