@@ -1,9 +1,9 @@
 import classes from "./ContactUs.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import socials1 from "@/public/socials-1.png";
-import socials2 from "@/public/socials-2.png";
-import socials3 from "@/public/socials-3.png";
+import socials1 from "../../../public/socials-1.png";
+import socials2 from "../../../public/socials-2.png";
+import socials3 from "../../../public/socials-3.png";
 
 export default function ContactUs() {
   return (
