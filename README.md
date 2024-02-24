@@ -103,6 +103,7 @@ Open http://localhost:3000 in your browser to view the application.
 ## 📷 Screenshots
 
 -----Mobile Version-----
+  <br/>
 ![Screenshot 01](https://github.com/Vasillena/Road-assistance/assets/114015792/fc8c4532-8c98-4d6b-8a9c-a9e41272a868)
 
 ------------------------
