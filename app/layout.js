@@ -28,6 +28,9 @@ export const metadata = {
     "спокойствие на пътя",
     "пътни инциденти",
   ],
+  alternates: {
+    canonical: "https://putnapomosht365.com/",
+  },
 };
 
 export default function RootLayout({ children }) {
