@@ -7,7 +7,7 @@
 ## ⭐️  Introduction
 
 We're here to give you peace of mind and a hassle-free solution to any emergency on the road, 24/7. With seriousness and dedication to our customers, we strive to offer the fastest and most effective solutions for any situation. Our goal is to be the partner you can count on in the most difficult moments of the road.
-This project is built with React + Next.js
+This project is built with Next.js
 
 View project at: https://putnapomosht365.com/
 
