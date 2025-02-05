@@ -41,7 +41,7 @@ export default function Services() {
             <Image src={icon4} width={100} height={100} alt="Icon" />
           </div>
           <div className={classes.text}>
-            <p>Превоз на всякаква техника и машини до 4 тона</p>
+            <p>Превоз на всякаква техника и машини до 5 тона</p>
           </div>
         </div>
         <div className={classes.service} data-aos="fade-up">
