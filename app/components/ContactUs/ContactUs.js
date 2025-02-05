@@ -25,7 +25,7 @@ export default function ContactUs() {
           <Image src={socials1} width={50} height={50} alt="Socials" />
         </Link>
         <Link
-          href="viber://chat?number=359884735665"
+  href="viber://chat?number=%2B359884735665"
           className={classes["viber-link"]}
           rel="nofollow noopener"
           aria-label="Viber"

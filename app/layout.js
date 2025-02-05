@@ -3,6 +3,7 @@ import "./globals.css";
 import Navigation from "./components/Navigation/Navigation";
 import Footer from "./components/Footer/Footer";
 import AOSInit from "./components/AOS/AosInit";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const sofiaFont = Sofia_Sans_Condensed({ subsets: ["cyrillic"] });
 
@@ -35,8 +36,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="bg">
       <AOSInit />
+      <GoogleTagManager
+        gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID}
+      />
       <body className={sofiaFont.className}>
         <Navigation />
         {children}

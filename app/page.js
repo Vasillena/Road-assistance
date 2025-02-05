@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Hero />
-      <MiddleLine />
+      {/* <MiddleLine /> */}
       <Services />
       <BottomLine />
       <Photos />
